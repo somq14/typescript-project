@@ -1,0 +1,12 @@
+{
+  // ホスト側にインストールする拡張機能の一覧
+  // コンテナ側にインストールする拡張機能は .devcontainer/devcontainer.json に記載がある
+  "recommendations": [
+    // コンテナ内開発のため拡張
+    "ms-vscode-remote.remote-containers",
+    // dotenv ファイルの拡張
+    "mikestead.dotenv",
+    // HTML 等のタグの編集をアシストする拡張
+    "formulahendry.auto-rename-tag"
+  ]
+}
