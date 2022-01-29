@@ -1,4 +1,10 @@
 {
   "name": "typescript-project",
-  "packageManager": "yarn@3.1.1"
+  "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "format": "prettier --check --ignore-unknown **/*"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
 }
