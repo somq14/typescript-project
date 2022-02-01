@@ -1,3 +1,4 @@
+/* eslint-env node */
 module.exports = {
   // TypeScript に対応する
   preset: "ts-jest",
