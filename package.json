@@ -7,12 +7,14 @@
     "test": "jest",
     "coverage": "jest --coverage && serve -l 9000 coverage/lcov-report",
     "format": "prettier --write --ignore-unknown '**/*'",
-    "lint": "eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'"
+    "lint": "eslint --max-warnings 0 '**/*.{js,jsx,ts,tsx}'",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "@somq14/eslint-config": "https://github.com/somq14/eslint-config#feature/config",
     "@types/jest": "^27.4.0",
     "eslint": "^8.8.0",
+    "husky": "^7.0.0",
     "jest": "^27.4.7",
     "prettier": "^2.5.1",
     "serve": "^13.0.2",
