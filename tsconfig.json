@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // トランスパイル先の言語仕様を指定
+    "target": "es2020",
+    // トランスパイル先のモジュールシステムを指定
+    "module": "commonjs",
+    // モジュールの相互運用性を高める
+    "esModuleInterop": true,
+    // ビルド先のディレクトリ
+    "outDir": "./dist",
+    // ここで指定したフォルダのソースツリーをビルドして outDir に生成する
+    "rootDir": "./src",
+    // 型定義ファイルを出力する
+    "declaration": true,
+    // ソースマップを出力する
+    "sourceMap": true,
+    // 型検査を厳格にする各種設定を一括で有効化する
+    "strict": true,
+    // 配列等に対するアクセスについて undefined の可能性を考慮する
+    "noUncheckedIndexedAccess": true,
+    // 外部ライブラリの型定義ファイルそれそのものの型検査を無効にしパフォーマンスを優先する
+    "skipLibCheck": true,
+    // import パスで大文字小文字を区別する
+    "forceConsistentCasingInFileNames": true
+  },
+  // ビルドに対象に含めるファイルを指定
+  "include": ["src/**/*"]
+}
