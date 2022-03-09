@@ -8,6 +8,8 @@
     "esModuleInterop": true,
     // ビルド先のディレクトリ
     "outDir": "./dist",
+    // インクリメンタルビルドを有効化
+    "incremental": true,
     // ここで指定したフォルダのソースツリーをビルドして outDir に生成する
     "rootDir": "./src",
     // 型定義ファイルを出力する

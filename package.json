@@ -2,8 +2,9 @@
   "name": "typescript-project",
   "packageManager": "yarn@3.1.1",
   "scripts": {
+    "clean": "rm -rf dist",
     "start": "tsc --watch",
-    "build": "rm -rf dist && mkdir -p dist && tsc",
+    "build": "tsc",
     "test": "jest",
     "coverage": "jest --coverage && serve -l 9000 coverage/lcov-report",
     "format": "prettier --write --ignore-unknown '**/*'",
