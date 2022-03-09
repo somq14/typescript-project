@@ -1,7 +1,8 @@
-/* eslint-env node */
 module.exports = {
-  // TypeScript に対応する
-  preset: "ts-jest",
-  // テスト対象を指定
-  testMatch: ["<rootDir>/src/**/*.spec.ts"],
+  // TypeScript は ts-jest でトランスパイルする
+  transform: { "^.+\\.tsx?$": "ts-jest" },
+  // src からテストファイルを検索
+  roots: ["<rootDir>/src"],
+  // テストがないファイルも含めてカバレッジを取得する
+  collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
 };
