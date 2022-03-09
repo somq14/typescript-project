@@ -15,6 +15,8 @@
     "EditorConfig.EditorConfig",
     // スペルチェッカ
     "streetsidesoftware.code-spell-checker",
+    // 開いているファイルをエクスプローラでフォーカスする
+    "smulyono.reveal",
     // Git の拡張機能
     "eamodio.gitlens",
 
@@ -27,9 +29,11 @@
     // docker 系ファイルのサポート
     "ms-azuretools.vscode-docker",
 
-    // JavaScript 等の成形ツール
+    // JavaScript 等の整形ツール
     "esbenp.prettier-vscode",
     // JavaScript 等の静的解析ツール
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    // カラーコードをハイライトする
+    "naumovs.color-highlight"
   ]
 }
