@@ -1,5 +1,0 @@
-{
-  "extends": "./tsconfig.json",
-  // 直下の js も eslint の対象とするための設定
-  "include": ["**/*"]
-}
